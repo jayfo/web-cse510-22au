@@ -1,0 +1,62 @@
+{
+    "name": "web-cse510-22au",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "dev_serve": "node scripts/dev_serve.js",
+        "prod_build": "node scripts/prod_build.js && yarn react-snap",
+        "prod_serve": "node scripts/prod_serve.js"
+    },
+    "@comment reactSnap": [],
+    "reactSnap": {
+        "source": "dist",
+        "publicPath": "/courses/cse510/22au/"
+    },
+    "@comment dependencies": [],
+    "dependencies": {
+        "@emotion/react": "11.x",
+        "@emotion/styled": "11.x",
+        "history": "5.x",
+        "luxon": "2.x",
+        "mobx": "6.x",
+        "mobx-react-lite": "3.x",
+        "mobx-react-router": "npm:@superwf/mobx-react-router@7.x",
+        "@mui/icons-material": "5.x",
+        "@mui/material": "5.x",
+        "path-to-regexp": "6.x",
+        "react": "17.x",
+        "react-dom": "17.x",
+        "react-router": "6.x",
+        "react-router-dom": "6.x"
+    },
+    "@comment devDependencies": [],
+    "devDependencies": {
+        "@babel/core": "*",
+        "@babel/preset-env": "*",
+        "@babel/preset-react": "*",
+        "babel-loader": "*",
+        "eslint": "*",
+        "express": "*",
+        "html-webpack-plugin": "*",
+        "@mdx-js/loader": "*",
+        "react-snap": "*",
+        "rimraf": "*",
+        "ts-loader": "*",
+        "tsconfig-paths-webpack-plugin": "*",
+        "@types/history": "*",
+        "@types/luxon": "*",
+        "@types/material-ui": "*",
+        "@types/mdx": "*",
+        "@types/mdx-js__react": "*",
+        "@types/node": "*",
+        "@types/react": "*",
+        "@types/react-dom": "*",
+        "@types/react-router": "*",
+        "@types/react-router-dom": "*",
+        "typescript": "*",
+        "webpack": "*",
+        "webpack-merge": "*",
+        "webpack-dev-middleware": "*",
+        "webpack-hot-middleware": "*"
+    }
+}
