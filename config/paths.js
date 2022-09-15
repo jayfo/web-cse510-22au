@@ -16,6 +16,6 @@ module.exports = {
     webpackConfigProd: resolveProject('config/webpack.prod.js'),
 
     publicPathDev: '/',
-    // Also see package.json configuration of reactSnap
+    // publicPathProd must match reactSnap/publicPath in package.json
     publicPathProd: '/courses/cse510/22au/',
 };

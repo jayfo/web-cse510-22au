@@ -2,12 +2,21 @@
     "name": "web-cse510-22au",
     "version": "0.0.1",
     "description": "",
+    "@comment scripts": [
+        "dev_serve: Dynamically serve from development.",
+        "prod_build: Build a production bundle."
+    ],
     "scripts": {
         "dev_serve": "node scripts/dev_serve.js",
-        "prod_build": "node scripts/prod_build.js && yarn react-snap",
-        "prod_serve": "node scripts/prod_serve.js"
+        "prod_build": "node scripts/prod_build.js && yarn react-snap"
     },
-    "@comment reactSnap": [],
+    "@comment reactSnap": [
+        "Configure react-snap:",
+        "- source: Path where scripts/prod_build.js will produce a production build.",
+        "- publicPath: Server relative path where build will be deployed.",
+        "",
+        "publicPath must match publicPathProd in paths.js"
+    ],
     "reactSnap": {
         "source": "dist",
         "publicPath": "/courses/cse510/22au/"

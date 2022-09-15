@@ -24,13 +24,13 @@ app.use(
 
 app.use(webpackHotMiddleware(compiler));
 
-// This allows redirecting to home to handle routing
+// All queries redirect to home, then app handles routing
 app.get('/*', function (req, res) {
     res.sendFile(path.join(paths.appBuildDev, 'index.html'));
 });
 
 port = 3000;
-host = 'localhost'
+host = '127.0.0.1'
 server = app.listen(port, host);
 server.on('listening', function () {
     console.log(`Listening on http://${server.address().address}:${server.address().port}/.`);

@@ -43,18 +43,23 @@ module.exports = {
                             presets: ['@babel/env', '@babel/react']
                         }
                     },
-                    '@mdx-js/loader'
+                    {
+                        loader: '@mdx-js/loader',
+                        options: {
+                            providerImportSource: '@mdx-js/react'
+                        }
+                    }
                 ],
                 exclude: "/node_modules/",
             },
-            // Image resources
+            // Image and file resources
             {
-                test: /\.(jpg|png)$/,
+                test: /\.(jpg|pdf|png|pptx)$/,
                 type: 'asset/resource',
                 generator: {
                     filename: 'assets/[name][ext]'
-                },
-            },
+                }
+            }
         ],
     },
 
@@ -62,8 +67,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             // Configuration:  https://github.com/jantimon/html-webpack-plugin
             template: paths.appIndexTemplate,
-            // base: Not apparently needed with publicPath defined in output
-            // publicPath: Not apparently needed with publicPath defined in output
+            // base: Not needed, due to publicPath defined in output
+            // publicPath: Not needed, due to publicPath defined in output
         }),
     ],
 };
