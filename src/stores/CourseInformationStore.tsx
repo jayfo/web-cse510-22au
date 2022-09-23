@@ -38,8 +38,8 @@ export class CourseInformationStore {
     linkDiscussion: link = this.linkCanvas + '/discussion_topics';
 
     // Links for the Visions of HCI discussion
-    linkVisionsOrganization: link = null; // TODO link = "https://docs.google.com/document/d/1p0jUK0ONrz8OuhXGqjHzEg-cte4vCDH4pxCIKSu9rek/edit?usp=sharing";
-    linkVisionsSlides: link = null; // TODO link = "https://docs.google.com/presentation/d/1q8U1QfW_n5XaKPjEyquUElOgNUD-RSyGVTWZgLT5YeE/edit?usp=sharing";
+    linkVisionsOrganization: link = 'https://docs.google.com/document/d/1TGZYijrQ_bcQOD4PSaq1eqUxxYIFtf_jDLtRnz38-kc/edit?usp=sharing';
+    linkVisionsSlides: link = 'https://docs.google.com/presentation/d/18iMZSPbBbLw-xrlBXLpxqpfUX4QCncq5VdgO6hKgl4c/edit?usp=sharing';
 
     //
     // Project
