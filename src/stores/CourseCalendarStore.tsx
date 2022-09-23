@@ -513,9 +513,6 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-12-08'),
-            dateTitle: 'Research Topic: TBD',
-
-            /*
             dateTitle: 'Research Topic: Research through Design',
             guest: {
                 name: 'Audrey Desjardins',
@@ -527,39 +524,37 @@ export class CourseCalendarStore {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    link: 'https://canvas.uw.edu/files/86270922/'
+                    // TODO link: 'https://canvas.uw.edu/files/86270922/'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        link: 'https://canvas.uw.edu/files/86270966/'
+                        // TODO link: 'https://canvas.uw.edu/files/86270966/'
                     },
                     {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        link: 'https://canvas.uw.edu/files/86270892/'
+                        // TODO link: 'https://canvas.uw.edu/files/86270892/'
                     },
                 ],
-                
             },
             additionalResources: [
                 {
                     authorText: 'Heidi R. Biggs, Audrey Desjardins',
                     title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
                     publicationText: 'DIS 2020',
-                    link: 'https://canvas.uw.edu/files/86270913/'
+                    // TODO link: 'https://canvas.uw.edu/files/86270913/'
                 },
                 {
                     authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
                     title: 'Moving Design Research: GIFs as Research Tools',
                     publicationText: 'DIS 2021',
-                    link: 'https://canvas.uw.edu/files/86270921/'
+                    // TODO link: 'https://canvas.uw.edu/files/86270921/'
                 },
             ],
-             */
         },
 
         //
