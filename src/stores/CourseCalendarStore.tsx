@@ -65,7 +65,7 @@ export class CourseCalendarStore {
                     authorText: 'Jonathan Grudin',
                     title: 'A Moving Target - The Evolution of Human-Computer Interaction',
                     publicationText: 'Book Chapter',
-                    link: 'https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/HCIhandbook3rd.pdf'
+                    link: 'https://canvas.uw.edu/files/95749979/'
                 }
             ]
         },
