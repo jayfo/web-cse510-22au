@@ -331,13 +331,13 @@ export class CourseCalendarStore {
                     authorText: 'Herbert A. Simon',
                     title: 'The Science of Design: Creating the Artificial',
                     publicationText: 'Design Issues, 1988',
-                    // TODO link: 'https://canvas.uw.edu/files/85805201/'
+                    link: 'https://canvas.uw.edu/files/95727723/'
                 },
                 {
                     authorText: 'Donald E. Stokes',
                     title: 'Pasteur’s Quadrant: Basic Science and Technological Innovation',
                     publicationText: 'Book Chapter, 1997',
-                    // TODO link: 'https://canvas.uw.edu/files/85805202/'
+                    link: 'https://canvas.uw.edu/files/95727722/'
                 },
             ]
         },

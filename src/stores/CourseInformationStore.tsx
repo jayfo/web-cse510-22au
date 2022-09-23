@@ -38,8 +38,8 @@ export class CourseInformationStore {
     linkDiscussion: link = this.linkCanvas + '/discussion_topics';
 
     // Links for the Visions of HCI discussion
-    linkVisionsOrganization: link = null; // TODO link = "https://docs.google.com/document/d/1p0jUK0ONrz8OuhXGqjHzEg-cte4vCDH4pxCIKSu9rek/edit?usp=sharing";
-    linkVisionsSlides: link = null; // TODO link = "https://docs.google.com/presentation/d/1q8U1QfW_n5XaKPjEyquUElOgNUD-RSyGVTWZgLT5YeE/edit?usp=sharing";
+    linkVisionsOrganization: link = 'https://docs.google.com/document/d/1TGZYijrQ_bcQOD4PSaq1eqUxxYIFtf_jDLtRnz38-kc/edit?usp=sharing';
+    linkVisionsSlides: link = 'https://docs.google.com/presentation/d/18iMZSPbBbLw-xrlBXLpxqpfUX4QCncq5VdgO6hKgl4c/edit?usp=sharing';
 
     //
     // Project
@@ -61,11 +61,11 @@ export class CourseInformationStore {
         '11:59pm ' + DateTime.fromISO('2022-12-14').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     // Link to a Canvas thread of potential project proposal ideas
-    linkProjectProposalIdeas: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/discussion_topics/6939656";
+    linkProjectProposalIdeas: link = 'https://canvas.uw.edu/courses/1597428/discussion_topics/7511474';
     // Link to a Canvas folder of prior project proposals
-    linkProjectProposalSamples: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/files/folder/project%20samples";
+    linkProjectProposalSamples: link = 'https://canvas.uw.edu/courses/1597428/files/folder/project%20samples';
     // Link to the current CHI format to use for report submission
-    linkProjectCHIFormat: link = "https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/";
+    linkProjectCHIFormat: link = 'https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/';
 
     // Link to shared document for project proposals
     linkProjectProposalGoogleDoc: link = null; // TODO link = "https://docs.google.com/document/d/1OB4rPy4x7OAfy1HT2tnXLqplIEsZQ2Odx_DZPlME0Tk/edit?usp=sharing";
