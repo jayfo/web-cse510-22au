@@ -87,73 +87,73 @@ export class CourseCalendarStore {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
                         publicationText: 'Scientific American, 1991',
-                        // TODO link: 'https://canvas.uw.edu/files/85803917/'
+                        link: 'https://canvas.uw.edu/files/95749946/'
                     },
                     {
                         authorText: 'Roy Want, Andy Hopper, Veronica Falcão, Jonathan Gibbons',
                         title: 'The Active Badge Location System',
                         publicationText: 'TOIS 1992',
-                        // TODO link: 'https://canvas.uw.edu/files/85803915/'
+                        link: 'https://canvas.uw.edu/files/95749944/'
                     },
                     {
                         authorText: 'James D. Hollan, Scott Stornetta',
                         title: 'Beyond Being There',
                         publicationText: 'CHI 1992',
-                        // TODO link: 'https://canvas.uw.edu/files/85803912/'
+                        link: 'https://canvas.uw.edu/files/95749938/'
                     },
                     {
                         authorText: 'Pierre Wellner',
                         title: 'Interacting with Paper on the DigitalDesk',
                         publicationText: 'CACM 1993',
-                        // TODO link: 'https://canvas.uw.edu/files/85803918/'
+                        link: 'https://canvas.uw.edu/files/95749947/'
                     },
                     {
                         authorText: 'Benjamin B. Bederson, James D. Hollan',
                         title: 'Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics',
                         publicationText: 'UIST 1994',
-                        // TODO link: 'https://canvas.uw.edu/files/85803910/'
+                        link: 'https://canvas.uw.edu/files/95749934/'
                     },
                     {
                         authorText: 'Hiroshi Ishii, Brygg Ullmer',
                         title: 'Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms',
                         publicationText: 'CHI 1997',
-                        // TODO link: 'https://canvas.uw.edu/files/85803914/'
+                        link: 'https://canvas.uw.edu/files/95749940/'
                     },
                     {
                         authorText: 'Eric Horvitz',
                         title: 'Principles of Mixed-Initiative User Interfaces',
                         publicationText: 'CHI 1999',
-                        // TODO link: 'https://canvas.uw.edu/files/85803913/'
+                        link: 'https://canvas.uw.edu/files/95749939/'
                     },
                     {
                         authorText: 'Ken Hinckley, Jeff Pierce, Mike Sinclair, Eric Horvitz',
                         title: 'Sensing Techniques for Mobile Interaction',
                         publicationText: 'UIST 2000',
-                        // TODO link: 'https://canvas.uw.edu/files/85803911/'
+                        link: 'https://canvas.uw.edu/files/95749937/'
                     },
                     {
                         authorText: 'Claudio S. Pinhanez',
                         title: 'The Everywhere Displays Projector: A Device to Create Ubiquitous Graphical Interfaces',
                         publicationText: 'UbiComp 2001',
-                        // TODO link: 'https://canvas.uw.edu/files/85804223/'
+                        link: 'https://canvas.uw.edu/files/95749943/'
                     },
                     {
                         authorText: 'Saul Greenberg, Chester Fitchett',
                         title: 'Phidgets: Easy Development of Physical Interfaces through Physical Widgets',
                         publicationText: 'UIST 2001',
-                        // TODO link: 'https://canvas.uw.edu/files/85810296/'
+                        link: 'https://canvas.uw.edu/files/95749936/'
                     },
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
                         publicationText: 'UbiComp 2002',
-                        // TODO link: 'https://canvas.uw.edu/files/85803916/'
+                        link: 'https://canvas.uw.edu/files/95749945/'
                     },
                     {
                         authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
                         title: 'A Practical Approach to Recognizing Physical Activities',
                         publicationText: 'Pervasive 2006',
-                        // TODO link: 'https://canvas.uw.edu/files/85835094/'
+                        link: 'https://canvas.uw.edu/files/95749942/'
                     },
                     {
                         authorText: 'Bret Victor',
@@ -178,7 +178,7 @@ export class CourseCalendarStore {
                         authorText: 'Jacob O. Wobbrock, Julie A. Kientz',
                         title: 'Research Contributions in Human-Computer Interaction',
                         publicationText: 'Interactions, 2016',
-                        // TODO link: 'https://canvas.uw.edu/files/85805207/'
+                        link: 'https://canvas.uw.edu/files/95749890/'
                     },
                     contributions: {
                         /*
