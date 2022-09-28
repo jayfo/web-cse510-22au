@@ -410,7 +410,12 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-11-03'),
-            dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            // dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            dateTitle: 'Research Topic: Information and Communication Technologies and Development',
+            guest: {
+                name: 'Kurtis Heimerl',
+                link: 'https://kurti.sh/',
+            },
         },
 
         //
