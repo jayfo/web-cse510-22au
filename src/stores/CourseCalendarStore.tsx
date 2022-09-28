@@ -524,20 +524,20 @@ export class CourseCalendarStore {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    // TODO link: 'https://canvas.uw.edu/files/86270922/'
+                    link: 'https://canvas.uw.edu/files/95760262/'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        // TODO link: 'https://canvas.uw.edu/files/86270966/'
+                        link: 'https://canvas.uw.edu/files/95760264/'
                     },
                     {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        // TODO link: 'https://canvas.uw.edu/files/86270892/'
+                        link: https://canvas.uw.edu/files/95760255/'
                     },
                 ],
             },
@@ -546,13 +546,13 @@ export class CourseCalendarStore {
                     authorText: 'Heidi R. Biggs, Audrey Desjardins',
                     title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
                     publicationText: 'DIS 2020',
-                    // TODO link: 'https://canvas.uw.edu/files/86270913/'
+                    link: 'https://canvas.uw.edu/files/95760257/'
                 },
                 {
                     authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
                     title: 'Moving Design Research: GIFs as Research Tools',
                     publicationText: 'DIS 2021',
-                    // TODO link: 'https://canvas.uw.edu/files/86270921/'
+                    link: 'https://canvas.uw.edu/files/95760259/download?download_frd=1'
                 },
             ],
         },
