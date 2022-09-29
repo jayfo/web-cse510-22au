@@ -410,7 +410,12 @@ export class CourseCalendarStore {
         },
         {
             date: DateTime.fromISO('2022-11-03'),
-            dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            // dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            dateTitle: 'Research Topic: Information and Communication Technologies and Development',
+            guest: {
+                name: 'Kurtis Heimerl',
+                link: 'https://kurti.sh/',
+            },
         },
 
         //
@@ -433,7 +438,35 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-11-15'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Designing with Children',
+            guest: {
+                name: 'Jason Yip',
+                link: 'http://bigyipper.com/',
+            },
+/*
+            readingsStandard: {
+                framing: {
+                    authorText: 'Allison Druin',
+                    title: 'The Role of Children in the Design of New Technology',
+                    publicationText: 'Behaviour and Information Technology, 2002',
+                    link: 'https://canvas.uw.edu/files/86306673/'
+                },
+                instances: [
+                    {
+                        authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
+                        title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
+                        publicationText: 'CHI 2021',
+                        link: 'https://canvas.uw.edu/files/86306650/'
+                    },
+                    {
+                        authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
+                        title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
+                        publicationText: 'CHI 2022',
+                        link: 'https://canvas.uw.edu/files/86306656/'
+                    }
+                ]
+            }
+*/
         },
         {
             date: DateTime.fromISO('2022-11-17'),
@@ -537,7 +570,7 @@ export class CourseCalendarStore {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        link: https://canvas.uw.edu/files/95760255/'
+                        link: 'https://canvas.uw.edu/files/95760255/'
                     },
                 ],
             },
@@ -768,36 +801,6 @@ additionalResources: [
                         link: 'https://canvas.uw.edu/files/87000322/'
                     }
                 ],
-            }
-*/
-
-/*
-            dateTitle: 'Research Topic: Designing with Children',
-            guest: {
-                name: 'Jason Yip',
-                link: 'http://bigyipper.com/',
-            },
-            readingsStandard: {
-                framing: {
-                    authorText: 'Allison Druin',
-                    title: 'The Role of Children in the Design of New Technology',
-                    publicationText: 'Behaviour and Information Technology, 2002',
-                    link: 'https://canvas.uw.edu/files/86306673/'
-                },
-                instances: [
-                    {
-                        authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
-                        title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
-                        publicationText: 'CHI 2021',
-                        link: 'https://canvas.uw.edu/files/86306650/'
-                    },
-                    {
-                        authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
-                        title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
-                        publicationText: 'CHI 2022',
-                        link: 'https://canvas.uw.edu/files/86306656/'
-                    }
-                ]
             }
 */
 
