@@ -552,7 +552,7 @@ export class CourseCalendarStore {
                     authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
                     title: 'Moving Design Research: GIFs as Research Tools',
                     publicationText: 'DIS 2021',
-                    link: 'https://canvas.uw.edu/files/95760259/download?download_frd=1'
+                    link: 'https://canvas.uw.edu/files/95760259/'
                 },
             ],
         },
