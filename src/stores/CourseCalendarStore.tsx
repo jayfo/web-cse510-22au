@@ -87,73 +87,73 @@ export class CourseCalendarStore {
                         authorText: 'Mark Weiser',
                         title: 'The Computer for the 21st Century',
                         publicationText: 'Scientific American, 1991',
-                        // TODO link: 'https://canvas.uw.edu/files/85803917/'
+                        link: 'https://canvas.uw.edu/files/95749946/'
                     },
                     {
                         authorText: 'Roy Want, Andy Hopper, Veronica Falcão, Jonathan Gibbons',
                         title: 'The Active Badge Location System',
                         publicationText: 'TOIS 1992',
-                        // TODO link: 'https://canvas.uw.edu/files/85803915/'
+                        link: 'https://canvas.uw.edu/files/95749944/'
                     },
                     {
                         authorText: 'James D. Hollan, Scott Stornetta',
                         title: 'Beyond Being There',
                         publicationText: 'CHI 1992',
-                        // TODO link: 'https://canvas.uw.edu/files/85803912/'
+                        link: 'https://canvas.uw.edu/files/95749938/'
                     },
                     {
                         authorText: 'Pierre Wellner',
                         title: 'Interacting with Paper on the DigitalDesk',
                         publicationText: 'CACM 1993',
-                        // TODO link: 'https://canvas.uw.edu/files/85803918/'
+                        link: 'https://canvas.uw.edu/files/95749947/'
                     },
                     {
                         authorText: 'Benjamin B. Bederson, James D. Hollan',
                         title: 'Pad++: A Zooming Graphical Interface for Exploring Alternate Interface Physics',
                         publicationText: 'UIST 1994',
-                        // TODO link: 'https://canvas.uw.edu/files/85803910/'
+                        link: 'https://canvas.uw.edu/files/95749934/'
                     },
                     {
                         authorText: 'Hiroshi Ishii, Brygg Ullmer',
                         title: 'Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms',
                         publicationText: 'CHI 1997',
-                        // TODO link: 'https://canvas.uw.edu/files/85803914/'
+                        link: 'https://canvas.uw.edu/files/95749940/'
                     },
                     {
                         authorText: 'Eric Horvitz',
                         title: 'Principles of Mixed-Initiative User Interfaces',
                         publicationText: 'CHI 1999',
-                        // TODO link: 'https://canvas.uw.edu/files/85803913/'
+                        link: 'https://canvas.uw.edu/files/95749939/'
                     },
                     {
                         authorText: 'Ken Hinckley, Jeff Pierce, Mike Sinclair, Eric Horvitz',
                         title: 'Sensing Techniques for Mobile Interaction',
                         publicationText: 'UIST 2000',
-                        // TODO link: 'https://canvas.uw.edu/files/85803911/'
+                        link: 'https://canvas.uw.edu/files/95749937/'
                     },
                     {
                         authorText: 'Claudio S. Pinhanez',
                         title: 'The Everywhere Displays Projector: A Device to Create Ubiquitous Graphical Interfaces',
                         publicationText: 'UbiComp 2001',
-                        // TODO link: 'https://canvas.uw.edu/files/85804223/'
+                        link: 'https://canvas.uw.edu/files/95749943/'
                     },
                     {
                         authorText: 'Saul Greenberg, Chester Fitchett',
                         title: 'Phidgets: Easy Development of Physical Interfaces through Physical Widgets',
                         publicationText: 'UIST 2001',
-                        // TODO link: 'https://canvas.uw.edu/files/85810296/'
+                        link: 'https://canvas.uw.edu/files/95749936/'
                     },
                     {
                         authorText: 'Roy Want, Trevor Pering, Gunner Danneels, Muthu Kumar, Murali Sundar, John Light',
                         title: 'The Personal Server: Changing the Way We Think about Ubiquitous Computing',
                         publicationText: 'UbiComp 2002',
-                        // TODO link: 'https://canvas.uw.edu/files/85803916/'
+                        link: 'https://canvas.uw.edu/files/95749945/'
                     },
                     {
                         authorText: 'Jonathan Lester, Tanzeem Choudhury, Gaetano Borriello',
                         title: 'A Practical Approach to Recognizing Physical Activities',
                         publicationText: 'Pervasive 2006',
-                        // TODO link: 'https://canvas.uw.edu/files/85835094/'
+                        link: 'https://canvas.uw.edu/files/95749942/'
                     },
                     {
                         authorText: 'Bret Victor',
@@ -178,7 +178,7 @@ export class CourseCalendarStore {
                         authorText: 'Jacob O. Wobbrock, Julie A. Kientz',
                         title: 'Research Contributions in Human-Computer Interaction',
                         publicationText: 'Interactions, 2016',
-                        // TODO link: 'https://canvas.uw.edu/files/85805207/'
+                        link: 'https://canvas.uw.edu/files/95749890/'
                     },
                     contributions: {
                         /*
@@ -366,20 +366,20 @@ export class CourseCalendarStore {
                     authorText: 'Saul Greenberg, Bill Buxton',
                     title: 'Usability Evaluation Considered Harmful (Some of the Time)',
                     publicationText: 'CHI 2008',
-                    // TODO link: 'https://canvas.uw.edu/files/85831973/'
+                    // TODO link: 'https://canvas.uw.edu/files/95749960/'
                 },
                 instances: [
                     {
                         authorText: 'Dan R. Olsen, Jr',
                         title: 'Evaluating User Interface Systems Research',
                         publicationText: 'UIST 2007',
-                        // TODO link: 'https://canvas.uw.edu/files/85831974/'
+                        // TODO link: 'https://canvas.uw.edu/files/95749961/'
                     },
                     {
                         authorText: 'James Fogarty',
                         title: 'Code and Contribution in Interactive Systems Research',
                         publicationText: 'CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits',
-                        // TODO link: 'https://canvas.uw.edu/files/85831972/'
+                        // TODO link: 'https://canvas.uw.edu/files/95749959/'
                     }
                 ]
             },
@@ -524,20 +524,20 @@ export class CourseCalendarStore {
                     authorText: 'William Gaver',
                     title: 'What Should We Expect from Research Through Design?',
                     publicationText: 'CHI 2012',
-                    // TODO link: 'https://canvas.uw.edu/files/86270922/'
+                    link: 'https://canvas.uw.edu/files/95760262/'
                 },
                 instances: [
                     {
                         authorText: 'William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart Hengeveld, Richard Banks',
                         title: 'From Research Prototype to Research Product',
                         publicationText: 'CHI 2016',
-                        // TODO link: 'https://canvas.uw.edu/files/86270966/'
+                        link: 'https://canvas.uw.edu/files/95760264/'
                     },
                     {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        // TODO link: 'https://canvas.uw.edu/files/86270892/'
+                        link: https://canvas.uw.edu/files/95760255/'
                     },
                 ],
             },
@@ -546,13 +546,13 @@ export class CourseCalendarStore {
                     authorText: 'Heidi R. Biggs, Audrey Desjardins',
                     title: 'Crafting an Embodied Speculation: An Account of Prototyping Methods',
                     publicationText: 'DIS 2020',
-                    // TODO link: 'https://canvas.uw.edu/files/86270913/'
+                    link: 'https://canvas.uw.edu/files/95760257/'
                 },
                 {
                     authorText: 'Heidi Biggs, Cayla Key, Audrey Desjardins, Afroditi Psarra',
                     title: 'Moving Design Research: GIFs as Research Tools',
                     publicationText: 'DIS 2021',
-                    // TODO link: 'https://canvas.uw.edu/files/86270921/'
+                    link: 'https://canvas.uw.edu/files/95760259/'
                 },
             ],
         },
