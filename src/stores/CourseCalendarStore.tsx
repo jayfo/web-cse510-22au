@@ -9,7 +9,7 @@ import ContentContributionsInHCI from '../content/calendar/ContributionsInHCI.md
 import ContentDueExam from '../content/calendar/DueExam.mdx';
 import ContentDueProjectFinalReport from '../content/calendar/DueProjectFinalReport.mdx';
 import ContentDueStatisticsLab from '../content/calendar/DueStatisticsLab.mdx';
-// import ContentExperimentalDesignAndAnalysis from '../content/calendar/ExperimentalDesignAndAnalysis.mdx';
+import ContentExperimentalDesignAndAnalysis from '../content/calendar/ExperimentalDesignAndAnalysis.mdx';
 import ContentNoReading from '../content/calendar/NoReading.mdx';
 import ContentProjectMilestone from '../content/calendar/ProjectMilestone.mdx';
 import ContentProjectProposal from '../content/calendar/ProjectProposal.mdx';
@@ -394,11 +394,47 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-10-25'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: CSCW and Social Computing',
+            guest: {
+                name: 'Benjamin Mako Hill',
+                link: 'https://mako.cc/',
+            },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Mark S. Ackerman',
+                    title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
+                    publicationText: 'HCI 2000',
+                    // TODO link: 'https://canvas.uw.edu/files/87251526/'
+                },
+                instances: [
+                    {
+                        authorText: 'Aaron Halfaker, R. Stuart Geiger, Jonathan T. Morgan, John Riedl',
+                        title: 'The Rise and Decline of an Open Collaboration System: How Wikipedia’s Reaction to Popularity Is Causing Its Decline',
+                        publicationText: 'American Behavioral Scientist 2012',
+                        // TODO link: 'https://canvas.uw.edu/files/87251640/'
+                    },
+                    {
+                        authorText: 'Sneha Narayan, Jake Orlowitz, Jonathan T Morgan, Benjamin Mako Hill, Aaron Shaw',
+                        title: 'The Wikipedia Adventure: Field Evaluation of an Interactive Tutorial for New Users',
+                        publicationText: 'CSCW 2017',
+                        // TODO link: 'https://canvas.uw.edu/files/87251725/'
+                    }
+                ]
+            },
+            additionalResources: [
+                {
+                    authorText: 'P. J. Resnick, Neophytos Iacovou, Mitesh Suchak, Pete Bergstrom, John Riedl',
+                    title: 'GroupLens: An Open Architecture for Collaborative Filtering of Netnews',
+                    publicationText: 'CSCW 1994',
+                    // TODO link: 'https://canvas.uw.edu/files/87251782/'
+                },
+
+            ],
         },
         {
             date: DateTime.fromISO('2022-10-27'),
-            dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            dateTitle: 'Experimental Design and Analysis',
+            contentNonstandard: <ContentExperimentalDesignAndAnalysis />,
         },
 
         //
@@ -406,15 +442,18 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-11-01'),
-            dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
+            dateTitle: 'Research Topic: Accessibility',
+            guest: {
+                name: 'Martez Mott',
+                link: 'http://www.martezmott.com/',
+            },
         },
         {
             date: DateTime.fromISO('2022-11-03'),
-            // dateTitle: 'Research Topic: TBD or Experimental Design and Analysis',
-            dateTitle: 'Research Topic: Information and Communication Technologies and Development',
+            dateTitle: 'Research Topic: Interaction with Machine Learning',
             guest: {
-                name: 'Kurtis Heimerl',
-                link: 'https://kurti.sh/',
+                name: 'Kayur Patel',
+                link: 'http://www.kayur.org/',
             },
         },
 
@@ -443,7 +482,6 @@ export class CourseCalendarStore {
                 name: 'Jason Yip',
                 link: 'http://bigyipper.com/',
             },
-/*
             readingsStandard: {
                 framing: {
                     authorText: 'Allison Druin',
@@ -466,11 +504,14 @@ export class CourseCalendarStore {
                     }
                 ]
             }
-*/
         },
         {
             date: DateTime.fromISO('2022-11-17'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Computing Education and Learning',
+            guest: {
+                name: 'Ben Shapiro',
+                link: 'https://benshapi.ro/',
+            },
         },
 
         //
@@ -478,7 +519,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-11-22'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Information and Communication Technologies and Development',
+            guest: {
+                name: 'Kurtis Heimerl',
+                link: 'https://kurti.sh/',
+            },
         },
 
         //
@@ -512,37 +557,6 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-12-06'),
             dateTitle: 'Research Topic: TBD',
-
-            /*
-            dateTitle: 'Research Topic: Building Scalable and Sustainable Research Software in Academia',
-            guest: {
-                name: 'Philip Guo',
-                link: 'https://pg.ucsd.edu/',
-            },
-            // Framing paper: https://dl.acm.org/doi/10.1145/3472749.3474819
-            readingsStandard: {
-                framing: {
-                    authorText: 'Philip Guo',
-                    title: 'Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia',
-                    publicationText: 'UIST 2021',
-                    link: 'https://canvas.uw.edu/files/86470756/'
-                },
-                instances: [
-                    {
-                        authorText: 'Philip Guo',
-                        title: 'Older Adults Learning Computer Programming: Motivations, Frustrations, and Design Opportunities',
-                        publicationText: 'CHI 2017',
-                        link: 'https://canvas.uw.edu/files/86470755/'
-                    },
-                    {
-                        authorText: 'Philip Guo',
-                        title: 'Codeopticon: Real-Time, One-To-Many Human Tutoring for Computer Programming',
-                        publicationText: 'CHI 2015',
-                        link: 'https://canvas.uw.edu/files/86470754/'
-                    },
-                ],
-            },
-            */
         },
         {
             date: DateTime.fromISO('2022-12-08'),
@@ -736,45 +750,6 @@ readingsStandard: {
 */
 
 /*
-dateTitle: 'Research Topic: CSCW and Social Computing',
-guest: {
-    name: 'Benjamin Mako Hill',
-    link: 'https://mako.cc/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Mark S. Ackerman',
-        title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
-        publicationText: 'HCI 2000',
-        link: 'https://canvas.uw.edu/files/87251526/'
-    },
-    instances: [
-        {
-            authorText: 'Aaron Halfaker, R. Stuart Geiger, Jonathan T. Morgan, John Riedl',
-            title: 'The Rise and Decline of an Open Collaboration System: How Wikipedia’s Reaction to Popularity Is Causing Its Decline',
-            publicationText: 'American Behavioral Scientist 2012',
-            link: 'https://canvas.uw.edu/files/87251640/'
-        },
-        {
-            authorText: 'Sneha Narayan, Jake Orlowitz, Jonathan T Morgan, Benjamin Mako Hill, Aaron Shaw',
-            title: 'The Wikipedia Adventure: Field Evaluation of an Interactive Tutorial for New Users',
-            publicationText: 'CSCW 2017',
-            link: 'https://canvas.uw.edu/files/87251725/'
-        }
-    ]
-},
-additionalResources: [
-    {
-        authorText: 'P. J. Resnick, Neophytos Iacovou, Mitesh Suchak, Pete Bergstrom, John Riedl',
-        title: 'GroupLens: An Open Architecture for Collaborative Filtering of Netnews',
-        publicationText: 'CSCW 1994',
-        link: 'https://canvas.uw.edu/files/87251782/'
-    },
-
-],
-*/
-
-/*
             dateTitle: 'Research Topic: Interaction with AI',
             guest: {
                 name: 'Adam Fourney',
@@ -833,3 +808,35 @@ additionalResources: [
                 ]
             }
  */
+
+
+/*
+dateTitle: 'Research Topic: Building Scalable and Sustainable Research Software in Academia',
+guest: {
+    name: 'Philip Guo',
+    link: 'https://pg.ucsd.edu/',
+},
+// Framing paper: https://dl.acm.org/doi/10.1145/3472749.3474819
+readingsStandard: {
+    framing: {
+        authorText: 'Philip Guo',
+        title: 'Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia',
+        publicationText: 'UIST 2021',
+        link: 'https://canvas.uw.edu/files/86470756/'
+    },
+    instances: [
+        {
+            authorText: 'Philip Guo',
+            title: 'Older Adults Learning Computer Programming: Motivations, Frustrations, and Design Opportunities',
+            publicationText: 'CHI 2017',
+            link: 'https://canvas.uw.edu/files/86470755/'
+        },
+        {
+            authorText: 'Philip Guo',
+            title: 'Codeopticon: Real-Time, One-To-Many Human Tutoring for Computer Programming',
+            publicationText: 'CHI 2015',
+            link: 'https://canvas.uw.edu/files/86470754/'
+        },
+    ],
+},
+*/
