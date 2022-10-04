@@ -556,7 +556,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-12-06'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Community-Based Research',
+            guest: {
+                name: 'Sucheta Ghoshal',
+                link: 'https://www.sucheta.net/',
+            },
         },
         {
             date: DateTime.fromISO('2022-12-08'),
