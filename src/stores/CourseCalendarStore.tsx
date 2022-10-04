@@ -392,20 +392,20 @@ export class CourseCalendarStore {
                     authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
                     title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
                     publicationText: 'HCI, 2003',
-                    // TODO link: 'https://canvas.uw.edu/files/85832106/'
+                    link: 'https://canvas.uw.edu/files/96219366/'
                 },
                 instances: [
                     {
                         authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
                         title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
                         publicationText: 'TOCHI, 2010',
-                        // TODO link: 'https://canvas.uw.edu/files/85832107/'
+                        link: 'https://canvas.uw.edu/files/96219360/'
                     },
                     {
                         authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
                         title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
                         publicationText: 'UIST 2014',
-                        // TODO link: 'https://canvas.uw.edu/files/85832105/'
+                        link: 'https://canvas.uw.edu/files/96219363/'
                     }
                 ]
             },
