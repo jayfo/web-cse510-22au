@@ -366,27 +366,49 @@ export class CourseCalendarStore {
                     authorText: 'Saul Greenberg, Bill Buxton',
                     title: 'Usability Evaluation Considered Harmful (Some of the Time)',
                     publicationText: 'CHI 2008',
-                    // TODO link: 'https://canvas.uw.edu/files/95749960/'
+                    link: 'https://canvas.uw.edu/files/95749960/'
                 },
                 instances: [
                     {
                         authorText: 'Dan R. Olsen, Jr',
                         title: 'Evaluating User Interface Systems Research',
                         publicationText: 'UIST 2007',
-                        // TODO link: 'https://canvas.uw.edu/files/95749961/'
+                        link: 'https://canvas.uw.edu/files/95749961/'
                     },
                     {
                         authorText: 'James Fogarty',
                         title: 'Code and Contribution in Interactive Systems Research',
                         publicationText: 'CHI 2017 Workshop on #HCI.Tools: Strategies and Best Practices for Designing, Evaluating, and Sharing Technical HCI Toolkits',
-                        // TODO link: 'https://canvas.uw.edu/files/95749959/'
+                        link: 'https://canvas.uw.edu/files/95749959/'
                     }
                 ]
             },
         },
         {
             date: DateTime.fromISO('2022-10-20'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Design Tools',
+            readingsStandard: {
+                framing: {
+                    authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
+                    title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
+                    publicationText: 'HCI, 2003',
+                    link: 'https://canvas.uw.edu/files/96219366/'
+                },
+                instances: [
+                    {
+                        authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
+                        title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
+                        publicationText: 'TOCHI, 2010',
+                        link: 'https://canvas.uw.edu/files/96219360/'
+                    },
+                    {
+                        authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
+                        title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
+                        publicationText: 'UIST 2014',
+                        link: 'https://canvas.uw.edu/files/96219363/'
+                    }
+                ]
+            },
         },
 
         //
@@ -556,7 +578,11 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-12-06'),
-            dateTitle: 'Research Topic: TBD',
+            dateTitle: 'Research Topic: Community-Based Research',
+            guest: {
+                name: 'Sucheta Ghoshal',
+                link: 'https://www.sucheta.net/',
+            },
         },
         {
             date: DateTime.fromISO('2022-12-08'),
@@ -636,32 +662,6 @@ export class CourseCalendarStore {
             // },
             // contentNonstandard: <ContentExperimentalDesignAndAnalysis />,
 
-
-/*
-dateTitle: 'Research Topic: Design Tools',
-readingsStandard: {
-    framing: {
-        authorText: 'Mark W. Newman, James Lin, Jason I. Hong, James A. Landay',
-        title: 'DENIM: An Informal Web Site Design Tool Inspired by Observations of Practice',
-        publicationText: 'HCI, 2003',
-        link: 'https://canvas.uw.edu/files/85832106/'
-    },
-    instances: [
-        {
-            authorText: 'Steven P. Dow, Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, Scott R. Klemmer',
-            title: 'Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy',
-            publicationText: 'TOCHI, 2010',
-            link: 'https://canvas.uw.edu/files/85832107/'
-        },
-        {
-            authorText: 'Stefanie Mueller, Sangha Im, Serafima Gurevich, Alexander Teibrich, Lisa Pfisterer, François Guimbretière, Patrick Baudisch',
-            title: 'WirePrint: 3D Printed Previews for Fast Prototyping',
-            publicationText: 'UIST 2014',
-            link: 'https://canvas.uw.edu/files/85832105/'
-        }
-    ]
-},
-*/
 
 /*
 dateTitle: 'Research Topic: Accessibility',
