@@ -181,148 +181,129 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/95749890/'
                     },
                     contributions: {
-                        /*
                         'Empirical': [
                             {
-                                authorText: 'Eiji Hayashi, Jaime Lien, Nicholas Gillian, Leonardo Giusti, Dave Weber, Jin Yamanaka, Lauren Bedal, Ivan Poupyrev',
-                                title: 'RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445367'
+                                authorText: 'Claudia Daudén Roquet, Nikki Theofanopoulou, Jaimie L Freeman, Jessica Schleider, James J Gross, Katie Davis, Ellen Townsend, Petr Slovak',
+                                title: 'Exploring Situated & Embodied Support for Youth’s Mental Health: Design Opportunities for Interactive Tangible Device',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502135'
                             },
                             {
-                                authorText: 'Maia J Boyd, Jamar L Sullivan, Marshini Chetty, Blase Ur',
-                                title: 'Understanding the Security and Privacy Advice Given to Black Lives Matter Protesters',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445061'
+                                authorText: 'André Rodrigues, Hugo Nicolau, André Santos, Diogo Branco, Jay Rainey, David Verweij, Jan David Smeddinck, Kyle Montague, Tiago Guerreiro',
+                                title: 'Investigating the Tradeoffs of Everyday Text-Entry Collection Methods',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3501908'
                             },
                             {
-                                authorText: 'Kaixing Zhao, Sandra Bardot, Marcos Serrano, Mathieu Simonnet, Bernard Oriolo, Christophe Jouffrais',
-                                title: 'Tactile Fixations: A Behavioral Marker on How People with Visual Impairments Explore Raised-line Graphics',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445578'
+                                authorText: 'Carla F. Griggio, Midas Nouwens, Clemens Nylandsted Klokmose',
+                                title: 'Caught in the Network: The Impact of WhatsApp’s 2021 Privacy Policy Update on Users’ Messaging App Ecosystems',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502032'
                             },
+                            
                         ],
                         'Artifact': [
                             {
-                                authorText: 'Wolf Kienzle, Eric Whitmire, Chris Rittaler, Hrvoje Benko',
-                                title: 'ElectroRing: Subtle Pinch and Touch Detection with a Ring',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445094'
+                                authorText: 'Vivian Shen, Craig Shultz, Chris Harrison',
+                                title: 'Mouth Haptics in VR using a Headset Ultrasound Phased Array',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3501960'
                             },
                             {
-                                authorText: 'Yiyue Luo, Kui Wu, Tomás Palacios, and Wojciech Matusik',
-                                title: 'KnitUI: Fabricating Interactive and Sensing Textiles with Machine Knitting',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445780'
+                                authorText: 'Colin Barry, Jessica de Souza, Yinan Xuan, Jason Holden, Eric Granholm, Edward Jay Wang',
+                                title: 'At-Home Pupillometry using Smartphone Facial Identification Cameras',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502493'
                             },
                             {
-                                authorText: 'Richen Liu, Min Gao, Shunlong Ye, and Jiang Zhang',
-                                title: 'IGScript: An Interaction Grammar for Scientific Data Presentation',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445535'
+                                authorText: 'Mitchell L. Gordon, Michelle S. Lam, Joon Sung Park, Kayur Patel, Jeff Hancock, Tatsunori Hashimoto, Michael S. Bernstein',
+                                title: 'Jury Learning: Integrating Dissenting Voices into Machine Learning Models',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502004'
                             },
                         ],
                         'Methodological': [
                             {
-                                authorText: 'Paweł W. Woźniak, Jakob Karolus, Florian Lang, Caroline Eckerth, Johannes Schöning, Yvonne Rogers, Jasmin Niess',
-                                title: 'Creepy Technology: What Is It and How Do You Measure It?',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445299'
+                                authorText: 'Theophanis Tsandilas and Pierre Dragicevic',
+                                title: 'Gesture Elicitation as a Computational Optimization Problem',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3501942'
                             },
                             {
-                                authorText: 'Jiamin Dai, Karyn Moffatt',
-                                title: 'Surfacing the Voices of People with Dementia: Strategies for Effective Inclusion of Proxy Stakeholders in Qualitative Research',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445756'
+                                authorText: 'Haotian Li, Yong Wang, Aoyu Wu, Huan Wei, Huamin Qu',
+                                title: 'Structure-Aware Visualization Retrieval',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/10.1145/3491102.3502048'
                             },
                             {
-                                authorText: 'Audrey Desjardins, Heidi R. Biggs',
-                                title: 'Data Epics: Embarking on Literary Journeys of Home Internet of Things Data',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445241'
+                                authorText: 'Lisa A. Elkin, Matthew Kay, James J. Higgins, Jacob O. Wobbrock',
+                                title: 'An Aligned Rank Transform Procedure for Multifactor Contrast Tests',
+                                publicationText: 'UIST 2021', // Lisa being sneaky
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3472749.3474784'
                             },
                         ],
                         'Theoretical': [
                             {
-                                authorText: 'Emeline Brulé, Gilles Bailly',
-                                title: '”Beyond 3D printers”: Understanding Long-Term Digital Fabrication Practices for the Education of Visually Impaired or Blind Youth',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445403'
+                                authorText: 'Miguel A. Renom, Baptiste Caramiaux, Michel Beaudouin-Lafon',
+                                title: 'Exploring Technical Reasoning in Digital Tool Use',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3501877'
                             },
                             {
-                                authorText: 'Florian “Floyd” Mueller, Tim Dwyer, Sarah Goodwin, Kim Marriott, Jialin Deng, Han D. Phan, Jionghao Lin, Kun-Ting Chen, Yan Wang, Rohit Ashok Khot',
-                                title: 'Data as Delight: Eating Data',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445218'
-                            },
-                            {
-                                authorText: 'Miguel Bruns, Stijn Ossevoort, Marianne Graves Petersen',
-                                title: 'Expressivity in Interaction: A Framework for Design',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445231'
+                                authorText: 'Antti Oulasvirta, Jussi P. P. Jokinen, Andrew Howes',
+                                title: 'Computational Rationality as a Theory of Interaction',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3517739'
                             },
                         ],
                         'Benchmark / Dataset': [
                             {
-                                authorText: 'Axel Antoine, Sylvain Malacria, Nicolai Marquardt, Géry Casiez',
-                                title: 'Interaction Illustration Taxonomy: Classification of Styles and Techniques for Visually Representing Interaction Scenarios',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445586'
-                            }, 
+                                authorText: 'Mina Lee, Percy Liang, Qian Yang',
+                                title: 'CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502030'
+                            },
                             {
-                                authorText: 'Nimra Zaheer, Obaid Ullah Ahmad, Ammar Ahmed, Muhammad Shehryar Khan, Mudassir Shabbir',
-                                title: 'SEMOUR: A Scripted Emotional Speech Repository for Urdu',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445171'
-                            }, 
+                                authorText: 'Vinoth Pandian Sermuga Pandian, Abdullah Shams, Sarah Suleri, Prof. Dr. Matthias Jarke',
+                                title: 'LoFi Sketch: A Large Scale Dataset of Smartphone Low Fidelity Sketches',
+                                publicationText: 'CHI EA 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3519624'
+                            },
                             {
-                                authorText: 'Vinoth Pandian Sermuga Pandian, Sarah Suleri, and Prof. Dr. Matthias Jarke',
-                                title: 'UISketch: A Large-Scale Dataset of UI Element Sketches',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445784'
+                                authorText: 'Raymond Fok, Mingyuan Zhong, Anne Spencer Ross, James Fogarty, and Jacob O. Wobbrock',
+                                title: 'A Large-Scale Longitudinal Analysis of Missing Label Accessibility Failures in Android Apps',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502143' // James be sneaky too
                             },
                         ],
                         'Survey': [
                             {
-                                authorText: 'Kelly Mack, Emma McDonnell, Dhruv Jain, Lucy Lu Wang, Jon E. Froehlich, Leah Findlater',
-                                title: 'What Do We Mean by "Accessibility Research"?: A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445412'
+                                authorText: 'Katta Spiel, Eva Hornecker, Rua Mae Williams, Judith Good',
+                                title: 'ADHD and Technology Research – Investigated by Neurodivergent Readers',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3517592'
                             },
                             {
-                                authorText: 'Cayley MacArthur, Arielle Grinberg, Daniel Harley, Mark Hancock',
-                                title: 'You’re Making Me Sick: A Systematic Review of How Virtual Reality Research Considers Gender & Cybersickness',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445701'
-                            },
-                            {
-                                authorText: 'Anjali Devakumar, Jay Modh, Bahador Saket, Eric P. S. Baumer, Munmun De Choudhury',
-                                title: 'A Review on Strategies for Data Collection, Reflection, and Communication in Eating Disorder Apps',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445670'
+                                authorText: 'Ryo Suzuki, Adnan Karim, Tian Xia, Hooman Hedayati, Nicolai Marquardt',
+                                title: 'Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3517719'
                             },
                         ],
                         'Opinion': [
                             {
-                                authorText: 'Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Kumar Paritosh, Lora M Aroyo',
-                                title: '"Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445518'
+                                authorText: 'Sandy J. J. Gould',
+                                title: 'Consumption Experiences in the Research Process',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502001'
                             },
                             {
-                                authorText: 'Sebastian Linxen, Christian Sturm, Florian Brühlmann, Vincent Cassau, Klaus Opwis, Katharina Reinecke',
-                                title: 'How WEIRD is CHI?',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3445488'
-                            },
-                            {
-                                authorText: 'Barrett Ens, Benjamin Bach, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, Arnaud Prouzeau, Christoph Anthes, Wolfgang Büschel, Cody Dunne, Tim Dwyer, Jens Grubert, Jason H Haga, Nurit Kirshenbaum, Dylan Kobayashi, Tica Lin, Monsurat Olaosebikan, Fabian Pointecker, David Saffo, Nazmus Saquib, Dieter Schmalstieg, Danielle Albers Szafir, Matt Whitlock, Yalong Yang',
-                                title: 'Grand Challenges in Immersive Analytics',
-                                publicationText: 'CHI 2021',
-                                link: 'https://dl.acm.org/doi/10.1145/3411764.3446866'
+                                authorText: 'Radu-Daniel Vatavu',
+                                title: 'Are Ambient Intelligence and Augmented Reality Two Sides of the Same Coin? Implications for Human-Computer Interaction',
+                                publicationText: 'CHI EA 2022',
+                                link: 'https://dl.acm.org/doi/10.1145/3491101.3519710'
                             },
                         ],
-                         */
                     }
                 }
             } />,
