@@ -264,16 +264,16 @@ export class CourseCalendarStore {
                                 publicationText: 'CHI 2022',
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502030'
                             },
-                            {
-                                authorText: 'Afsaneh Razi, Ashwaq Alsoubai, Seunghyun Kim, Nurun Naher, Shiza Ali, Gianluca Stringhini, Munmun De Choudhury, Pamela J. Wisniewski',
-                                title: 'Instagram Data Donation: A Case Study on Collecting Ecologically Valid Social Media Data for the Purpose of Adolescent Online Risk Detection',
-                                publicationText: 'CHI 2022',
-                                link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3503569'
-                            },
+//                             {
+//                                 authorText: 'Afsaneh Razi, Ashwaq Alsoubai, Seunghyun Kim, Nurun Naher, Shiza Ali, Gianluca Stringhini, Munmun De Choudhury, Pamela J. Wisniewski',
+//                                 title: 'Instagram Data Donation: A Case Study on Collecting Ecologically Valid Social Media Data for the Purpose of Adolescent Online Risk Detection',
+//                                 publicationText: 'CHI EA 2022',
+//                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3503569'
+//                             },
                             {
                                 authorText: 'Vinoth Pandian Sermuga Pandian, Abdullah Shams, Sarah Suleri, Prof. Dr. Matthias Jarke',
                                 title: 'LoFi Sketch: A Large Scale Dataset of Smartphone Low Fidelity Sketches',
-                                publicationText: 'CHI 2022',
+                                publicationText: 'CHI EA 2022',
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3519624'
                             },
                         ],
