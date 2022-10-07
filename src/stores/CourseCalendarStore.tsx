@@ -181,7 +181,6 @@ export class CourseCalendarStore {
                         link: 'https://canvas.uw.edu/files/95749890/'
                     },
                     contributions: {
-                        /*
                         'Empirical': [
                             {
                                 authorText: 'Claudia Daudén Roquet, Nikki Theofanopoulou, Jaimie L Freeman, Jessica Schleider, James J Gross, Katie Davis, Ellen Townsend, Petr Slovak',
@@ -232,14 +231,14 @@ export class CourseCalendarStore {
                             },
                             {
                                 authorText: 'Haotian Li, Yong Wang, Aoyu Wu, Huan Wei, Huamin Qu',
-                                title: 'Structure-aware Visualization Retrieval',
+                                title: 'Structure-Aware Visualization Retrieval',
                                 publicationText: 'CHI 2022',
                                 link: 'https://dl.acm.org/doi/10.1145/3491102.3502048'
                             },
                             {
                                 authorText: 'Lisa A. Elkin, Matthew Kay, James J. Higgins, Jacob O. Wobbrock',
                                 title: 'An Aligned Rank Transform Procedure for Multifactor Contrast Tests',
-                                publicationText: 'UIST 2021',
+                                publicationText: 'UIST 2021', // Lisa being sneaky
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3472749.3474784'
                             },
                         ],
@@ -264,17 +263,17 @@ export class CourseCalendarStore {
                                 publicationText: 'CHI 2022',
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502030'
                             },
-//                             {
-//                                 authorText: 'Afsaneh Razi, Ashwaq Alsoubai, Seunghyun Kim, Nurun Naher, Shiza Ali, Gianluca Stringhini, Munmun De Choudhury, Pamela J. Wisniewski',
-//                                 title: 'Instagram Data Donation: A Case Study on Collecting Ecologically Valid Social Media Data for the Purpose of Adolescent Online Risk Detection',
-//                                 publicationText: 'CHI EA 2022',
-//                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3503569'
-//                             },
                             {
                                 authorText: 'Vinoth Pandian Sermuga Pandian, Abdullah Shams, Sarah Suleri, Prof. Dr. Matthias Jarke',
                                 title: 'LoFi Sketch: A Large Scale Dataset of Smartphone Low Fidelity Sketches',
                                 publicationText: 'CHI EA 2022',
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491101.3519624'
+                            },
+                            {
+                                authorText: 'Raymond Fok, Mingyuan Zhong, Anne Spencer Ross, James Fogarty, and Jacob O. Wobbrock',
+                                title: 'A Large-Scale Longitudinal Analysis of Missing Label Accessibility Failures in Android Apps',
+                                publicationText: 'CHI 2022',
+                                link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502143' // James be sneaky too
                             },
                         ],
                         'Survey': [
@@ -294,7 +293,7 @@ export class CourseCalendarStore {
                         'Opinion': [
                             {
                                 authorText: 'Sandy J. J. Gould',
-                                title: 'Consumption experiences in the research process',
+                                title: 'Consumption Experiences in the Research Process',
                                 publicationText: 'CHI 2022',
                                 link: 'https://dl.acm.org/doi/abs/10.1145/3491102.3502001'
                             },
@@ -305,7 +304,6 @@ export class CourseCalendarStore {
                                 link: 'https://dl.acm.org/doi/10.1145/3491101.3519710'
                             },
                         ],
-                         */
                     }
                 }
             } />,
