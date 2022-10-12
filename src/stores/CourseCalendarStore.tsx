@@ -406,21 +406,21 @@ export class CourseCalendarStore {
                 framing: {
                     authorText: 'Mark S. Ackerman',
                     title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
-                    publicationText: 'HCI 2000',
-                    // TODO link: 'https://canvas.uw.edu/files/87251526/'
+                    publicationText: 'HCI 2009',
+                    link: 'https://canvas.uw.edu/files/96219383/'
                 },
                 instances: [
                     {
                         authorText: 'Aaron Halfaker, R. Stuart Geiger, Jonathan T. Morgan, John Riedl',
                         title: 'The Rise and Decline of an Open Collaboration System: How Wikipedia’s Reaction to Popularity Is Causing Its Decline',
                         publicationText: 'American Behavioral Scientist 2012',
-                        // TODO link: 'https://canvas.uw.edu/files/87251640/'
+                        link: 'https://canvas.uw.edu/files/96219384/'
                     },
                     {
                         authorText: 'Sneha Narayan, Jake Orlowitz, Jonathan T Morgan, Benjamin Mako Hill, Aaron Shaw',
                         title: 'The Wikipedia Adventure: Field Evaluation of an Interactive Tutorial for New Users',
                         publicationText: 'CSCW 2017',
-                        // TODO link: 'https://canvas.uw.edu/files/87251725/'
+                        link: 'https://canvas.uw.edu/files/96219386/'
                     }
                 ]
             },
@@ -429,7 +429,7 @@ export class CourseCalendarStore {
                     authorText: 'P. J. Resnick, Neophytos Iacovou, Mitesh Suchak, Pete Bergstrom, John Riedl',
                     title: 'GroupLens: An Open Architecture for Collaborative Filtering of Netnews',
                     publicationText: 'CSCW 1994',
-                    // TODO link: 'https://canvas.uw.edu/files/87251782/'
+                    link: 'https://canvas.uw.edu/files/96219387/'
                 },
 
             ],
