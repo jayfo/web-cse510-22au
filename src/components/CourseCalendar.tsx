@@ -42,7 +42,7 @@ function renderAwayJames(calendarDateCurrent: CalendarDate) {
     if (calendarDateCurrent.awayJames) {
         return (
             <Alert severity='info' sx={{marginBottom: 1}}>
-                James will be away, participating remotely if able.
+                James will be away.
             </Alert>
         );
     } else {
