@@ -68,10 +68,10 @@ export class CourseInformationStore {
     linkProjectCHIFormat: link = 'https://chi2022.acm.org/for-authors/presenting/papers/chi-publication-formats/';
 
     // Link to shared document for project proposals
-    linkProjectProposalGoogleDoc: link = null; // TODO link = "https://docs.google.com/document/d/1OB4rPy4x7OAfy1HT2tnXLqplIEsZQ2Odx_DZPlME0Tk/edit?usp=sharing";
+    linkProjectProposalGoogleDoc: link = "https://docs.google.com/document/d/1XKeAK5qEuPpyly8LOstXaNk3SBWzGRjoKBH3ttYeDao/edit#";
 
     // Links to submit project components
-    linkSubmitProjectProposal: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7075561";
+    linkSubmitProjectProposal: link = 'https://canvas.uw.edu/courses/1597428/assignments/7762001';
     linkSubmitProjectMilestone1Document: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7099160";
     linkSubmitProjectMilestone1Slides: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7103427";
     linkSignupProjectMilestone1Presentation: link = null; // TODO link = "https://docs.google.com/document/d/1QK6ZglvPnWBGY5pCbLLHOEhxt19sx2CF-TTGXxn_v3c/edit?usp=sharing";
