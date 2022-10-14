@@ -523,6 +523,7 @@ export class CourseCalendarStore {
         {
             date: DateTime.fromISO('2022-11-22'),
             dateTitle: 'Research Topic: Information and Communication Technologies and Development',
+            awayJames: true,
             guest: {
                 name: 'Kurtis Heimerl',
                 link: 'https://kurti.sh/',
