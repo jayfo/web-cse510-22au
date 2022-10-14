@@ -406,7 +406,7 @@ export class CourseCalendarStore {
                 framing: {
                     authorText: 'Mark S. Ackerman',
                     title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
-                    publicationText: 'HCI 2009',
+                    publicationText: 'HCI 2000',
                     link: 'https://canvas.uw.edu/files/96219383/'
                 },
                 instances: [
