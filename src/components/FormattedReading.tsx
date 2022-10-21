@@ -16,29 +16,45 @@ interface FormattedReadingProps {
  * Render a Reading as a <span /> to be displayed.
  */
 export const FormattedReading: FunctionComponent<FormattedReadingProps> = (props) => {
-    if (props.reading.link) {
-        return (
+    return(
+        <React.Fragment>
             <span>
-                { props.reading.authorText }.
-                <span> </span>
-                <GeneratedLink href={ props.reading.link }>
-                    { props.reading.title }
-                </GeneratedLink>.
-                <span> </span>
-                { props.reading.publicationText }.
+                {
+                    // Optionally an author and then pad.
+                    props.reading.authorText &&
+                    <React.Fragment>
+                        { props.reading.authorText }.
+                        <span> </span>
+                    </React.Fragment>
+                }
+                {
+                    // Always include a title, optionally with a link.
+                }
+                {
+                    !props.reading.link &&
+                    <React.Fragment>
+                        { props.reading.title }
+                    </React.Fragment>
+                }
+                {
+                    props.reading.link &&
+                    <React.Fragment>
+                        <GeneratedLink href={ props.reading.link }>
+                            { props.reading.title }
+                        </GeneratedLink>.
+                    </React.Fragment>
+                }
+                {
+                    // Optionally pad and then a publicationText.
+                    props.reading.publicationText &&
+                    <React.Fragment>
+                        <span> </span>
+                        { props.reading.publicationText }.
+                    </React.Fragment>
+                }
             </span>
-        );
-    } else {
-        return (
-            <span>
-                { props.reading.authorText }.
-                <span> </span>
-                { props.reading.title }.
-                <span> </span>
-                { props.reading.publicationText }.
-            </span>
-        );
-    }
+        </React.Fragment>
+    );
 }
 
 export default FormattedReading;
