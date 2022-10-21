@@ -490,20 +490,20 @@ export class CourseCalendarStore {
                     authorText: 'Allison Druin',
                     title: 'The Role of Children in the Design of New Technology',
                     publicationText: 'Behaviour and Information Technology, 2002',
-                    link: 'https://canvas.uw.edu/files/86306673/'
+                    link: 'https://canvas.uw.edu/files/97056150/'
                 },
                 instances: [
                     {
                         authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
                         title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
                         publicationText: 'CHI 2021',
-                        link: 'https://canvas.uw.edu/files/86306650/'
+                        link: 'https://canvas.uw.edu/files/97056151/'
                     },
                     {
                         authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
                         title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
                         publicationText: 'CHI 2022',
-                        link: 'https://canvas.uw.edu/files/86306656/'
+                        link: 'https://canvas.uw.edu/files/97056154/'
                     }
                 ]
             }
