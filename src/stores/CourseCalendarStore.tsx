@@ -592,7 +592,7 @@ export class CourseCalendarStore {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        link: 'https://canvas.uw.edu/files/95760255/'
+                        link: 'https://canvas.uw.edu/files/97022487/'
                     },
                 ],
             },
