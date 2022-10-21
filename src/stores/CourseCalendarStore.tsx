@@ -515,6 +515,28 @@ export class CourseCalendarStore {
                 name: 'Ben Shapiro',
                 link: 'https://benshapi.ro/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Andrea A. diSessa, David Hammer, Bruce Sherin, Tina Kolpakowski',
+                    title: 'Inventing Graphing: Meta-Representational Expertise in Children',
+                    publicationText: 'The Journal of Mathematical Behavior, 1991',
+                    link: 'https://canvas.uw.edu/files/97056426/'
+                },
+                instances: [
+                    {
+                        authorText: 'Michelle H. Wilkerson-Jerde, Brian E. Gravel, Christopher A. Macrander',
+                        title: 'Exploring Shifts in Middle School Learners’ Modeling Activity While Generating Drawings, Animations, and Computational Simulations of Molecular Diffusion',
+                        publicationText: 'Journal of Science Education and Technology 2015',
+                        link: 'https://canvas.uw.edu/files/97056429/'
+                    },
+                    {
+                        authorText: 'Lila Finch, Celeste Moreno, R. Benjamin Shapiro',
+                        title: 'Luminous Science: Teachers Designing For and Developing Transdisciplinary Thinking and Learning',
+                        publicationText: 'Cognition and Instruction 2021',
+                        link: 'https://canvas.uw.edu/files/97056427/'
+                    }
+                ]
+            }
         },
 
         //
