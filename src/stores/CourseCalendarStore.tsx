@@ -450,6 +450,28 @@ export class CourseCalendarStore {
                 name: 'Martez Mott',
                 link: 'http://www.martezmott.com/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Jacob O. Wobbrock, Krzysztof Z. Gajos, Shaun K. Kane, Gregg C. Vanderheiden',
+                    title: 'Ability-Based Design',
+                    publicationText: 'CACM, 2018',
+                    link: 'https://canvas.uw.edu/files/97061383/'
+                },
+                instances: [
+                    {
+                        authorText: 'Martez E. Mott, Radu-Daniel Vatavu, Shaun K. Kane, Jacob O. Wobbrock',
+                        title: 'Smart Touch: Improving Touch Accuracy for People with Motor Impairments with Template Matching',
+                        publicationText: 'CHI 2016',
+                        link: 'https://canvas.uw.edu/files/97061381/'
+                    },
+                    {
+                        authorText: 'Rachel L. Franz, Sasa Junuzovic, Martez Mott',
+                        title: 'Nearmi: A Framework for Designing Point of Interest Techniques for VR Users with Limited Mobility',
+                        publicationText: 'ASSETS 2021',
+                        link: 'https://canvas.uw.edu/files/97061380/'
+                    },
+                ],
+            },
         },
         {
             date: DateTime.fromISO('2022-11-03'),
