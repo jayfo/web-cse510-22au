@@ -480,6 +480,45 @@ export class CourseCalendarStore {
                 name: 'Kayur Patel',
                 link: 'http://www.kayur.org/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Austin P. Wright, Zijie J. Wang, Haekyu Park, Grace Guo, Fabian Sperrle, Mennatallah El-Assady, Alex Endert, Daniel Keim, Duen Horng (Polo) Chau',
+                    title: 'A Comparative Analysis of Industry Human-AI Interaction Guidelines',
+                    publicationText: 'IEEE VIS 2020 Workshop on Trust and Expertise in Visual Analytics (TREX)',
+                    link: 'https://canvas.uw.edu/files/97063527/'
+                },
+                instances: [
+                    {
+                        authorText: 'Kayur Patel, Naomi Bancroft, Steven M. Drucker, James Fogarty, Amy J. Ko, and James Landay',
+                        title: 'Gestalt: Integrated Support for Implementation and Analysis in Machine Learning',
+                        publicationText: 'UIST 2010',
+                        link: 'https://canvas.uw.edu/files/97063526/'
+                    },
+                    {
+                        authorText: 'Mitchell L. Gordon, Michelle S. Lam, Joon Sung Park, Kayur Patel, Jeff Hancock, Tatsunori Hashimoto, and Michael S. Bernstein',
+                        title: 'Jury Learning: Integrating Dissenting Voices into Machine Learning Models',
+                        publicationText: 'CHI 2022',
+                        link: 'https://canvas.uw.edu/files/97063525/'
+                    },
+                ],
+            },
+            additionalResources: [
+                {
+                    authorText: 'Apple',
+                    title: 'Machine Learning - Human Interface Guidelines',
+                    link: 'https://developer.apple.com/design/human-interface-guidelines/technologies/machine-learning/introduction/'
+                },
+                {
+                    authorText: 'Google',
+                    title: 'Patterns - People + AI Guidebook',
+                    link: 'https://pair.withgoogle.com/guidebook/patterns'
+                },
+                {
+                    authorText: 'Microsoft',
+                    title: 'Guidelines for Human-AI Interaction',
+                    link: 'https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/'
+                },
+            ],
         },
 
         //
