@@ -450,6 +450,28 @@ export class CourseCalendarStore {
                 name: 'Martez Mott',
                 link: 'http://www.martezmott.com/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Jacob O. Wobbrock, Krzysztof Z. Gajos, Shaun K. Kane, Gregg C. Vanderheiden',
+                    title: 'Ability-Based Design',
+                    publicationText: 'CACM, 2018',
+                    link: 'https://canvas.uw.edu/files/97061383/'
+                },
+                instances: [
+                    {
+                        authorText: 'Martez E. Mott, Radu-Daniel Vatavu, Shaun K. Kane, Jacob O. Wobbrock',
+                        title: 'Smart Touch: Improving Touch Accuracy for People with Motor Impairments with Template Matching',
+                        publicationText: 'CHI 2016',
+                        link: 'https://canvas.uw.edu/files/97061381/'
+                    },
+                    {
+                        authorText: 'Rachel L. Franz, Sasa Junuzovic, Martez Mott',
+                        title: 'Nearmi: A Framework for Designing Point of Interest Techniques for VR Users with Limited Mobility',
+                        publicationText: 'ASSETS 2021',
+                        link: 'https://canvas.uw.edu/files/97061380/'
+                    },
+                ],
+            },
         },
         {
             date: DateTime.fromISO('2022-11-03'),
@@ -458,6 +480,45 @@ export class CourseCalendarStore {
                 name: 'Kayur Patel',
                 link: 'http://www.kayur.org/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Austin P. Wright, Zijie J. Wang, Haekyu Park, Grace Guo, Fabian Sperrle, Mennatallah El-Assady, Alex Endert, Daniel Keim, Duen Horng (Polo) Chau',
+                    title: 'A Comparative Analysis of Industry Human-AI Interaction Guidelines',
+                    publicationText: 'IEEE VIS 2020 Workshop on Trust and Expertise in Visual Analytics (TREX)',
+                    link: 'https://canvas.uw.edu/files/97063527/'
+                },
+                instances: [
+                    {
+                        authorText: 'Kayur Patel, Naomi Bancroft, Steven M. Drucker, James Fogarty, Amy J. Ko, and James Landay',
+                        title: 'Gestalt: Integrated Support for Implementation and Analysis in Machine Learning',
+                        publicationText: 'UIST 2010',
+                        link: 'https://canvas.uw.edu/files/97063526/'
+                    },
+                    {
+                        authorText: 'Mitchell L. Gordon, Michelle S. Lam, Joon Sung Park, Kayur Patel, Jeff Hancock, Tatsunori Hashimoto, and Michael S. Bernstein',
+                        title: 'Jury Learning: Integrating Dissenting Voices into Machine Learning Models',
+                        publicationText: 'CHI 2022',
+                        link: 'https://canvas.uw.edu/files/97063525/'
+                    },
+                ],
+            },
+            additionalResources: [
+                {
+                    authorText: 'Apple',
+                    title: 'Machine Learning - Human Interface Guidelines',
+                    link: 'https://developer.apple.com/design/human-interface-guidelines/technologies/machine-learning/introduction/'
+                },
+                {
+                    authorText: 'Google',
+                    title: 'Patterns - People + AI Guidebook',
+                    link: 'https://pair.withgoogle.com/guidebook/patterns'
+                },
+                {
+                    authorText: 'Microsoft',
+                    title: 'Guidelines for Human-AI Interaction',
+                    link: 'https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/'
+                },
+            ],
         },
 
         //
@@ -490,20 +551,20 @@ export class CourseCalendarStore {
                     authorText: 'Allison Druin',
                     title: 'The Role of Children in the Design of New Technology',
                     publicationText: 'Behaviour and Information Technology, 2002',
-                    link: 'https://canvas.uw.edu/files/86306673/'
+                    link: 'https://canvas.uw.edu/files/97056150/'
                 },
                 instances: [
                     {
                         authorText: 'Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee, Jason Yip',
                         title: 'The Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design With Children Online',
                         publicationText: 'CHI 2021',
-                        link: 'https://canvas.uw.edu/files/86306650/'
+                        link: 'https://canvas.uw.edu/files/97056151/'
                     },
                     {
                         authorText: 'Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, Jaime Ruiz',
                         title: '“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design',
                         publicationText: 'CHI 2022',
-                        link: 'https://canvas.uw.edu/files/86306656/'
+                        link: 'https://canvas.uw.edu/files/97056154/'
                     }
                 ]
             }
@@ -515,6 +576,28 @@ export class CourseCalendarStore {
                 name: 'Ben Shapiro',
                 link: 'https://benshapi.ro/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Andrea A. diSessa, David Hammer, Bruce Sherin, Tina Kolpakowski',
+                    title: 'Inventing Graphing: Meta-Representational Expertise in Children',
+                    publicationText: 'The Journal of Mathematical Behavior, 1991',
+                    link: 'https://canvas.uw.edu/files/97056426/'
+                },
+                instances: [
+                    {
+                        authorText: 'Michelle H. Wilkerson-Jerde, Brian E. Gravel, Christopher A. Macrander',
+                        title: 'Exploring Shifts in Middle School Learners’ Modeling Activity While Generating Drawings, Animations, and Computational Simulations of Molecular Diffusion',
+                        publicationText: 'Journal of Science Education and Technology 2015',
+                        link: 'https://canvas.uw.edu/files/97056429/'
+                    },
+                    {
+                        authorText: 'Lila Finch, Celeste Moreno, R. Benjamin Shapiro',
+                        title: 'Luminous Science: Teachers Designing For and Developing Transdisciplinary Thinking and Learning',
+                        publicationText: 'Cognition and Instruction 2021',
+                        link: 'https://canvas.uw.edu/files/97056427/'
+                    }
+                ]
+            }
         },
 
         //
@@ -592,7 +675,7 @@ export class CourseCalendarStore {
                         authorText: 'Heidi R. Biggs, Audrey Desjardins',
                         title: 'High Water Pants: Designing Embodied Environmental Speculation',
                         publicationText: 'CHI 2020',
-                        link: 'https://canvas.uw.edu/files/95760255/'
+                        link: 'https://canvas.uw.edu/files/97022487/'
                     },
                 ],
             },

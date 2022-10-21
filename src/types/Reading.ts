@@ -1,8 +1,8 @@
 export interface Reading {
-  authorText: string;
+  authorText?: string;
   title: string;
-  publicationText: string;
   link?: string;
+  publicationText?: string;
 }
 
 export default Reading;
