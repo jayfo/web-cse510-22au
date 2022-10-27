@@ -96,7 +96,7 @@ export class CourseInformationStore {
     assignmentDateDueStatisticsLab: assignmentDate =
         '11:59pm ' + DateTime.fromISO('2022-11-23').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkStatisticsLab: link = null; // TODO link = 'https://canvas.uw.edu/files/88095585/download?download_frd=1';
+    linkStatisticsLab: link = 'https://canvas.uw.edu/files/97349140/download?download_frd=1';
     linkSubmitStatisticsLab: link = null; // TODO link = 'https://canvas.uw.edu/courses/1519807/assignments/7128609';
 
     //

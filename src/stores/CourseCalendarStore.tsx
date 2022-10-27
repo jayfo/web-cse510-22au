@@ -611,6 +611,28 @@ export class CourseCalendarStore {
                 name: 'Kurtis Heimerl',
                 link: 'https://kurti.sh/',
             },
+            readingsStandard: {
+                framing: {
+                    authorText: 'Lilly Irani, Janet Vertesi, Paul Dourish, Kavita Philip, Rebecca E. Grinter',
+                    title: 'Postcolonial Computing: A Lens on Design and Development',
+                    publicationText: 'CHI 2010',
+                    link: 'https://canvas.uw.edu/files/97371692/'
+                },
+                instances: [
+                    {
+                        authorText: 'Eric Brewer, Michael Demmer, Melissa Ho, R. J. Honicky, Joyojeet Pal, Madelaine Plauche, Sonesh Surana',
+                        title: 'The Challenges of Technology Research for Developing Regions',
+                        publicationText: 'IEEE Pervasive Computing, 2006',
+                        link: 'https://canvas.uw.edu/files/97371691/'
+                    },
+                    {
+                        authorText: 'Matthew William Johnson, Esther Han Beol Jang, Frankie O\'Rourke, Rachel Ye, Kurtis Heimerl',
+                        title: 'Network Capacity as Common Pool Resource: Community-Based Congestion Management in a Community Network',
+                        publicationText: 'CSCW 2021',
+                        link: 'https://canvas.uw.edu/files/97371693/'
+                    }
+                ]
+            }
         },
 
         //
@@ -643,11 +665,29 @@ export class CourseCalendarStore {
         //
         {
             date: DateTime.fromISO('2022-12-06'),
-            dateTitle: 'Research Topic: Community-Based Research',
-            guest: {
-                name: 'Sucheta Ghoshal',
-                link: 'https://www.sucheta.net/',
-            },
+            dateTitle: 'Research Topic: Interface Toolkits',
+            readingsStandard: {
+                framing: {
+                    authorText: 'Brad Myers, Scott E. Hudson, Randy Pausch',
+                    title: 'Past, Present, and Future of User Interface Software Tools',
+                    publicationText: 'TOCHI 2000',
+                    link: 'https://canvas.uw.edu/files/97371695/'
+                },
+                instances: [
+                    {
+                        authorText: 'Michael Bostock, Vadim Ogievetsky, Jeffrey Heer',
+                        title: 'D3: Data-Driven Documents',
+                        publicationText: 'InfoVis 2011',
+                        link: 'https://canvas.uw.edu/files/97371695/'
+                    },
+                    {
+                        authorText: 'Morgan Dixon, James Fogarty',
+                        title: 'Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure',
+                        publicationText: 'CHI 2010',
+                        link: 'https://canvas.uw.edu/files/97371696/'
+                    }
+                ]
+            }
         },
         {
             date: DateTime.fromISO('2022-12-08'),
@@ -718,190 +758,3 @@ export class CourseCalendarStore {
         },
     ];
 }
-
-
-            // dateTitle: 'Experimental Design and Analysis',
-            // guest: {
-            //     name: 'Eunice Jun',
-            //     link: 'https://homes.cs.washington.edu/~emjun/',
-            // },
-            // contentNonstandard: <ContentExperimentalDesignAndAnalysis />,
-
-
-/*
-dateTitle: 'Research Topic: Accessibility',
-guest: {
-    name: 'Meredith Ringel Morris',
-    link: 'https://cs.stanford.edu/~merrie/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Jennifer Mankoff, Gillian R. Hayes, Devva Kasnitz',
-        title: 'Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology',
-        publicationText: 'ASSETS 2010',
-        link: 'https://canvas.uw.edu/files/86272943/'
-    },
-    instances: [
-        {
-            authorText: 'Shaun Kane, Meredith Ringel Morris, Ann Paradiso, Jon Campbell',
-            title: '"At times avuncular and cantankerous, with the reflexes of a mongoose": Understanding Self-Expression through Augmentative and Alternative Communication Devices',
-            publicationText: 'CSCW 2017',
-            link: 'https://canvas.uw.edu/files/86272939/'
-        },
-        {
-            authorText: 'Kyle Rector, Keith Salmon, Daniel Thornton, Neel Joshi, Meredith Ringel Morris',
-            title: 'Eyes-Free Art: Exploring Proxemic Audio Interfaces For Blind and Low Vision Art Engagement',
-            publicationText: 'UbiComp 2017',
-            link: 'https://canvas.uw.edu/files/86272945/'
-        }
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Interface Toolkits',
-readingsStandard: {
-    framing: {
-        authorText: 'Brad Myers, Scott E. Hudson, Randy Pausch',
-        title: 'Past, Present, and Future of User Interface Software Tools',
-        publicationText: 'TOCHI 2000',
-        link: 'https://canvas.uw.edu/files/85832110/'
-    },
-    instances: [
-        {
-            authorText: 'Michael Bostock, Vadim Ogievetsky, Jeffrey Heer',
-            title: 'D3: Data-Driven Documents',
-            publicationText: 'InfoVis 2011',
-            link: 'https://canvas.uw.edu/files/85832111/'
-        },
-        {
-            authorText: 'Morgan Dixon, James Fogarty',
-            title: 'Prefab: Implementing Advanced Behaviors Using Pixel-Based Reverse Engineering of Interface Structure',
-            publicationText: 'CHI 2010',
-            link: 'https://canvas.uw.edu/files/85832109/'
-        }
-    ]
-}
-*/
-
-/*
-dateTitle: 'Research Topic: Social Computing and CSCW',
-guest: {
-    name: 'Amy Zhang',
-    link: 'https://homes.cs.washington.edu/~axz/',
-},
-readingsStandard: {
-    framing: {
-        authorText: 'Mark S. Ackerman',
-        title: 'The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility',
-        publicationText: 'Human-Computer Interaction, 2009',
-        link: 'https://canvas.uw.edu/files/63385683/'
-    },
-    instances: [
-        {
-            authorText: 'Kaitlin Mahar, Amy X. Zhang, David Karger',
-            title: 'Squadbox: A Tool to Combat Online Harassment Using Friendsourced Moderation',
-            publicationText: 'CHI 2018',
-            link: 'https://canvas.uw.edu/files/63385812/'
-        },
-        {
-            authorText: 'Maurice Jakesch, Megan French, Xiao Ma, Jeffrey T. Hancock, Mor Naaman',
-            title: 'AI-Mediated Communication: How the Perception that Profile Text was Written by AI Affects Trustworthiness',
-            publicationText: 'CHI 2019',
-            link: 'https://canvas.uw.edu/files/63385702/'
-        },
-    ]
-}
-*/
-
-/*
-            dateTitle: 'Research Topic: Interaction with AI',
-            guest: {
-                name: 'Adam Fourney',
-                link: 'https://www.adamfourney.com/',
-            },
-            readingsStandard: {
-                framing: {
-                    authorText: 'Eric Horvitz',
-                    title: 'Principles of Mixed-Initiative User Interfaces',
-                    publicationText: 'CHI 1999',
-                    link: 'https://canvas.uw.edu/files/86272398/'
-                },
-                instances: [
-                    {
-                        authorText: 'Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz',
-                        title: 'Guidelines for Human-AI Interaction',
-                        publicationText: 'CHI 2019',
-                        link: 'https://canvas.uw.edu/files/86272544/'
-                    },
-                    {
-                        authorText: 'Qian Yang, Aaron Steinfeld, Carolyn Penstein Rosé, John Zimmerman',
-                        title: 'Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design',
-                        publicationText: 'CHI 2020',
-                        link: 'https://canvas.uw.edu/files/87000322/'
-                    }
-                ],
-            }
-*/
-
-/*
-            dateTitle: 'Research Topic: Programming as Interaction',
-            guest: {
-                name: 'Eunice Jun',
-                link: 'https://homes.cs.washington.edu/~emjun/',
-            },
-            readingsStandard: {
-                framing: {
-                    authorText: 'Sarah Chasins, Elena Glassman, Joshua Sunshine',
-                    title: 'PL and HCI: Better Together',
-                    publicationText: 'CACM 2021',
-                    link: 'https://canvas.uw.edu/files/87636522/'
-                },
-                instances: [
-                    {
-                        authorText: 'Eunice Jun, Melissa Birchfield, Nicole De Moura, Jeffrey Heer, René Just',
-                        title: 'Hypothesis Formalization: Empirical Findings, Software Limitations, and Design Implications',
-                        publicationText: 'TOCHI 2022',
-                        link: 'https://canvas.uw.edu/files/87636175/'
-                    },
-                    {
-                        authorText: 'Eunice Jun, Maureen Daum, Jared Roesch, Sarah Chasins, Emery Berger, René Just, Katharina Reinecke',
-                        title: ' Tea: A High-level Language and Runtime System for Automating Statistical Analysis',
-                        publicationText: 'UIST 2019',
-                        link: 'https://canvas.uw.edu/files/87636173/'
-                    }
-                ]
-            }
- */
-
-
-/*
-dateTitle: 'Research Topic: Building Scalable and Sustainable Research Software in Academia',
-guest: {
-    name: 'Philip Guo',
-    link: 'https://pg.ucsd.edu/',
-},
-// Framing paper: https://dl.acm.org/doi/10.1145/3472749.3474819
-readingsStandard: {
-    framing: {
-        authorText: 'Philip Guo',
-        title: 'Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia',
-        publicationText: 'UIST 2021',
-        link: 'https://canvas.uw.edu/files/86470756/'
-    },
-    instances: [
-        {
-            authorText: 'Philip Guo',
-            title: 'Older Adults Learning Computer Programming: Motivations, Frustrations, and Design Opportunities',
-            publicationText: 'CHI 2017',
-            link: 'https://canvas.uw.edu/files/86470755/'
-        },
-        {
-            authorText: 'Philip Guo',
-            title: 'Codeopticon: Real-Time, One-To-Many Human Tutoring for Computer Programming',
-            publicationText: 'CHI 2015',
-            link: 'https://canvas.uw.edu/files/86470754/'
-        },
-    ],
-},
-*/
