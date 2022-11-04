@@ -72,12 +72,11 @@ export class CourseInformationStore {
 
     // Links to submit project components
     linkSubmitProjectProposal: link = 'https://canvas.uw.edu/courses/1597428/assignments/7762001';
-    linkSubmitProjectMilestone1Document: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7099160";
-    linkSubmitProjectMilestone1Slides: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7103427";
-    linkSignupProjectMilestone1Presentation: link = null; // TODO link = "https://docs.google.com/document/d/1QK6ZglvPnWBGY5pCbLLHOEhxt19sx2CF-TTGXxn_v3c/edit?usp=sharing";
-    linkSubmitProjectMilestone2: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7099249";
-    linkSignupProjectMilestone2Presentation: link = null; // TODO link = "https://docs.google.com/document/d/1LPryCVy4vjscDFb6WM6yJUX0kHjOm9TkvsPQ8Q3917s/edit?usp=sharing";
-    linkSubmitProjectReport: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7170960";
+    linkSubmitProjectMilestone1: link = 'https://canvas.uw.edu/courses/1597428/assignments/7784896';
+    linkSignupProjectMilestone1PresentationSignup: link = 'https://docs.google.com/document/d/1kfsWp4uVbeMXaICiyCpOAdvLGrcSYYkz1lp3Xd0_xm8/edit?usp=share_link';
+    linkSubmitProjectMilestone2: link = 'https://canvas.uw.edu/courses/1597428/assignments/7798007';
+    linkSignupProjectMilestone2PresentationSignup: link = 'https://docs.google.com/document/d/1eO3umlJ-ihF8ZCvDl29kV_Es5WhSVCaoi3ZAZxzY5h8/edit?usp=share_link';
+    linkSubmitProjectReport: link = 'https://canvas.uw.edu/courses/1597428/assignments/7798008';
 
     // Reading on paper writing
     readingWobbrockPaperWriting: Reading = {
@@ -97,7 +96,7 @@ export class CourseInformationStore {
         '11:59pm ' + DateTime.fromISO('2022-11-23').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
     linkStatisticsLab: link = 'https://canvas.uw.edu/files/97349140/download?download_frd=1';
-    linkSubmitStatisticsLab: link = null; // TODO link = 'https://canvas.uw.edu/courses/1519807/assignments/7128609';
+    linkSubmitStatisticsLab: link = 'https://canvas.uw.edu/courses/1597428/assignments/7798011';
 
     //
     // Exam
@@ -108,5 +107,5 @@ export class CourseInformationStore {
     assignmentDateDueExam: link =
         '11:59pm ' + DateTime.fromISO('2022-12-12').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkSubmitExam: link = null; // TODO link = "https://canvas.uw.edu/courses/1519807/assignments/7170957"
+    linkSubmitExam: link = 'https://canvas.uw.edu/courses/1597428/assignments/7798014';
 }
