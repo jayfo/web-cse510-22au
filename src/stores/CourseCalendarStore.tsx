@@ -671,7 +671,7 @@ export class CourseCalendarStore {
                     authorText: 'Brad Myers, Scott E. Hudson, Randy Pausch',
                     title: 'Past, Present, and Future of User Interface Software Tools',
                     publicationText: 'TOCHI 2000',
-                    link: 'https://canvas.uw.edu/files/97371695/'
+                    link: 'https://canvas.uw.edu/files/97371697/'
                 },
                 instances: [
                     {
