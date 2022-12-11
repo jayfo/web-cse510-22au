@@ -107,5 +107,5 @@ export class CourseInformationStore {
     assignmentDateDueExam: link =
         '11:59pm ' + DateTime.fromISO('2022-12-12').toLocaleString(DATETIME_OPTIONS_ASSIGNMENT);
 
-    linkSubmitExam: link = 'https://canvas.uw.edu/courses/1597428/assignments/7798014';
+    linkSubmitExam: link = 'https://canvas.uw.edu/courses/1597428/assignments/7868565';
 }
